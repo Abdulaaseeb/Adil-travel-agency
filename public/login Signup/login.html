@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="shortcut icon" href="img/log.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter password">
+            </div> 
+        </form>
+        <button onclick="logIn()">Login</button>
+        <div class="newAccount">
+        <p>Create a New Account <a href="signup.html" target="_blank">Sign Up</a></p>
+      </div>
+    </div>
+
+    <script src="login.js" type="module"></script>
+</body>
+</html>

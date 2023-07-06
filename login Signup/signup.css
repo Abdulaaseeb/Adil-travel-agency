@@ -1,0 +1,52 @@
+.container {
+    max-width: 400px;
+    margin: 18vh auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input {
+    width: 94%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}
+.alreadyacc a{
+   text-decoration: none;
+   color: #45a049;
+   text-decoration: underline;
+}

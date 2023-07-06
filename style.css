@@ -1,0 +1,104 @@
+.img1{
+    width: 80px;
+    height: 80px;
+}
+.firnav{
+  z-index: 1;
+}
+.firnav a{
+   font-weight: bold;
+   font-size: 18px;
+}
+.firnav a:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.firnav a:focus{
+    color: blue;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.sec1icon a{
+    text-decoration: none;
+}
+.img2{
+    width: 40px;
+    height: 30px;
+    color: aliceblue;
+}
+.sec1bg{
+    background-color: rgba(168, 221, 239, 0.271);
+}
+.sec2bg{
+    background-color: rgba(168, 221, 239, 0.271);
+}
+.package a{
+    text-decoration: none;
+    color: black;
+}
+.itenrary li{
+    list-style: circle;
+}
+.iten{
+    color: blue;
+}
+.contact input{
+    border-top: none;
+    border-left:none ;
+    border-right:none ;
+
+}
+.contact input:focus{
+    border: none;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.contact select{
+    border-top: none;
+    border-left:none ;
+    border-right:none ;
+}
+input::placeholder{
+    color: black;
+}
+.bgimg{
+    margin-top: 112px;
+    background: url('img/bgimg.webp');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:transparent ;
+}
+.bgimg h1{
+   margin: 150px auto;
+   background-color: aliceblue;
+   border-style: solid;
+   border: 2px;
+   border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #conus input{
+      width: 100%; 
+    }
+  }
+
+.logimg{
+    background: url('img/1318238.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-attachment: fixed;
+}
+
+.logsign{
+    margin-top: 20vh;
+    width: 50%;
+    height: 50vh;
+    background-color: transparent;
+}
+.logsign button{
+    margin-top: 10vh;
+}
